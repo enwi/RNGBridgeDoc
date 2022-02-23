@@ -19,7 +19,7 @@ Take the two socket strips, push them into the PCB, turn the PCB around and sold
 Take the RJ12 connector and push it into the PCB, turn the PCB around and solder it in from the bottom.
 
 Your PCB should now look like this:
-![PCB](https://github.com/enwi/RNGBridgeDoc/blob/master/images/soldering.png)
+![PCB](https://github.com/enwi/RNGBridgeDoc/blob/main/images/soldering.png)
 
 ## Step 5 - Power and ESP8266
 Take the power converter and plug it into the 3 pin socket strip (it should only go in one way).
@@ -30,9 +30,9 @@ Make sure that the antenna and the body of the ESP8266 are aligned in the direct
 > In other words the ESP8266 should NOT be over top of the MAX3232, but off to the side of the PCB.
 
 If everything went according to plan, then your PCB should now look like this:
-![PCB](https://github.com/enwi/RNGBridgeDoc/blob/master/images/finished.png)
+![PCB](https://github.com/enwi/RNGBridgeDoc/blob/main/images/finished.png)
 
 ## Step 6 - Plug it in
 Get an RJ12 cable and connect `RNG to WiFi` to your Renogy charge controller.
 
-You can continue with the [Commissioning Guide](https://github.com/enwi/RNGBridgeDoc/blob/master/comissioning.md)
+You can continue with the [Commissioning Guide](https://github.com/enwi/RNGBridgeDoc/blob/main/comissioning.md)
