@@ -9,7 +9,7 @@ Once the LED starts blinking at a 2 second interval you can continue with the ne
 Connect your phone/tablet/pc to the WiFi network called `rngbridge`. 
 You can also scan this QR code to connect to the WiFi network.
 
-![WiFi QR](https://github.com/enwi/RNGBridgeDoc/blob/main/images/qr_wifi_rngbridge.png)
+![WiFi QR](https://github.com/enwi/RNGBridgeDoc/blob/v1/images/qr_wifi_rngbridge.png)
 
 ## Step 3
 Once connected your phone/tablet/pc should ask you to sign in to rngbridge (captive portal).
@@ -25,7 +25,7 @@ If you want to connect `RNG to WiFi` with your local WiFi network continue with 
 >After the page loaded, you are presented with the user interface of `RNG to WiFi`.
 >Alternatively you can scan this QR code to open the browser with the correct URL.
 >
->![WiFi IP QR](https://github.com/enwi/RNGBridgeDoc/blob/main/images/qr_url_192.168.1.1.png)
+>![WiFi IP QR](https://github.com/enwi/RNGBridgeDoc/blob/v1/images/qr_url_192.168.1.1.png)
 
 ## Step 4
 Click on the `WiFi` tab to open the WiFi settings.
@@ -42,9 +42,9 @@ After that `RNG to WiFi` will scan all nearby WiFi networks and if a network wit
 ## Step 5
 Once `RNG to WiFi` has connected successfully with your local WiFi network you can access the user interface from your browser like in `Step 3`.
 To make things easier you can use the URL `http://rngbridge.local`, click on <a href="http://rngbridge.local" target="_blank">this</a> or again scan the QR code below.
-![WiFi URL QR](https://github.com/enwi/RNGBridgeDoc/blob/main/images/qr_url_rngbridge.png)
+![WiFi URL QR](https://github.com/enwi/RNGBridgeDoc/blob/v1/images/qr_url_rngbridge.png)
 
 > On some phones or browsers you might run into the issue that the page won't load with the error `DNS_PROBE_FINISHED_NXDOMAIN`.
 > In this case I recommend using a different browser or device.
 
-If everything worked out fine you are now setup. For infos on how to setup `MQTT` or `PVOutput` please take a look at the respective guides [MQTT](https://github.com/enwi/RNGBridgeDoc/blob/main/mqtt.md) and [PVOutput](https://github.com/enwi/RNGBridgeDoc/blob/main/pvoutput.md).
+If everything worked out fine you are now setup. For infos on how to setup `MQTT` or `PVOutput` please take a look at the respective guides [MQTT](https://github.com/enwi/RNGBridgeDoc/blob/v1/mqtt.md) and [PVOutput](https://github.com/enwi/RNGBridgeDoc/blob/v1/pvoutput.md).
