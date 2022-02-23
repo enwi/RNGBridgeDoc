@@ -1,14 +1,24 @@
 [![Discord](https://img.shields.io/discord/781219798931603527.svg?label=enwi&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/YxVyJWX62h)
 
-# RNGBridgeDoc V1
-Documentation and guides for RNGBridge V1, an RS232 to WiFi bridge for Renogy solar charge controllers with PVOutput and MQTT support
-![pcb](https://github.com/enwi/RNGBridgeDoc/blob/main/images/populated_pcb.jpg)
+# RNGBridgeDoc V2
+Documentation and guides for RNGBridge V2, an RS232 to WiFi bridge for Renogy solar charge controllers with PVOutput and MQTT support
+<!-- ![pcb](https://github.com/enwi/RNGBridgeDoc/blob/main/images/populated_pcb.jpg) -->
 
 ## Feature overview
- - Web interface for configuration and current state
+ - Beautiful web interface
+    - Control load output remotely
+    - Get more information about system errors by hovering over them
+    - Battery capacity intuitively visualized
     - ![web interface](https://github.com/enwi/RNGBridgeDoc/blob/main/images/webinterface.png)
+ - Over the air software updates (`OTA`)
+   - Keeps configuration after update
  - Optional data publishing to [MQTT](https://en.wikipedia.org/wiki/MQTT)
+    - Works with protected Brokers (`username`, `password`)
+    - Configurable `topic`, `client id`, `port` and `ip`
  - Optional data publishing to [PVOutput](https://pvoutput.org)
+    - Configurable time offset
+
+Missing anything? If you want support for a custom feature or want to suggest something, feel free to open an issue or join the [Discord Server](https://discord.gg/YxVyJWX62h).
 
 ## Where to buy
 You can get [this kit](https://www.tindie.com/products/21360/) on my [tindie store](https://www.tindie.com/stores/enwi/#store-section-products)
