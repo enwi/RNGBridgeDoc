@@ -6,7 +6,7 @@ Documentation and guides for RNGBridge V1, an RS232 to WiFi bridge for Renogy so
 
 ## Feature overview
  - Web interface for configuration and current state
- - ![web interface](https://github.com/enwi/RNGBridgeDoc/blob/main/images/webinterface.png)
+    - ![web interface](https://github.com/enwi/RNGBridgeDoc/blob/main/images/webinterface.png)
  - Optional data publishing to [MQTT](https://en.wikipedia.org/wiki/MQTT)
  - Optional data publishing to [PVOutput](https://pvoutput.org)
 
