@@ -10,12 +10,12 @@ Once the LED starts blinking at a 1 second interval you can continue with the ne
 > If you still have issues get help on my discord server by clicking on this icon -> [![Discord](https://img.shields.io/discord/781219798931603527.svg?label=enwi&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/YxVyJWX62h)
 
 ## Step 2
-Connect your phone/tablet/pc to the WiFi network called `rngbridge` followed by a mix of 12 letters and numbers.
+Connect your phone/tablet/pc to the WiFi network called `rngbridge` followed by a mix of 12 letters and numbers for example `rngbridge E8DB849C6FDF`
 
 ## Step 3
 Once connected, your phone/tablet/pc should ask you to sign in to rngbridge (captive portal).
 On Android you will need to click on the popup on other devices (iOS, MacOS) the captive portal will open automatically.
-Once opened you are greeted with the GUI.
+Once opened you are greeted with the user interface.
 
 > On some devices this can take up to 30 seconds for the message to be displayed.
 
@@ -26,6 +26,7 @@ If you want to connect `RNGBridge` with your local WiFi network continue with st
 >After the page loaded, you are presented with the user interface of `RNGBridge`.
 
 ## Step 4
+![connect to wifi](https://github.com/enwi/RNGBridgeDoc/blob/main/images/gif/wifi_client.gif)
 Open the settings menu by clicking the gear icon in the top right of the page.
 Then click on the panel named `WiFi`.
 Next select `Client` from the `WiFi mode` dropdown.
