@@ -26,7 +26,6 @@ If you want to connect `RNGBridge` with your local WiFi network continue with st
 >After the page loaded, you are presented with the user interface of `RNGBridge`.
 
 ## Step 4
-![connect to wifi](https://github.com/enwi/RNGBridgeDoc/blob/main/images/gif/wifi_client.gif)
 Open the settings menu by clicking the gear icon in the top right of the page.
 Then click on the panel named `WiFi`.
 Next select `Client` from the `WiFi mode` dropdown.
@@ -38,7 +37,9 @@ If you want to give it a static IP address or want to do some advanced configura
 
 Verify that your WiFi settings (`SSID`, `Password`, etc.) are correct and press the `SAVE WIFI CONFIG` button.
 After that `RNGBridge` will reboot and try to connect to the WiFi network.
-If it can't connect due to the WiFi not being available or the settings being invalid `RNGBridge` will fall back to the access point mode. 
+If it can't connect due to the WiFi not being available or the settings being invalid `RNGBridge` will fall back to the access point mode.
+
+<img src="https://github.com/enwi/RNGBridgeDoc/blob/main/images/gif/wifi_client.gif" width="600">
 
 ## Step 5
 Once `RNGBridge` has connected successfully with your local WiFi network you can access the user interface from all devices connected to you local network.
