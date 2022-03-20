@@ -65,6 +65,4 @@ If everything went according to plan, then your PCB should now look something li
 ![PCB](https://github.com/enwi/RNGBridgeDoc/blob/main/images/complete.png)
 
 ## Step 6 - Commissioning
-Get an RJ12 cable and connect `RNGBridge` to your Renogy charge controller.
-
-You can continue with the [Commissioning Guide](https://github.com/enwi/RNGBridgeDoc/blob/main/comissioning.md)
+Get an RJ12 cable ready and continue with the [Commissioning Guide](https://github.com/enwi/RNGBridgeDoc/blob/main/comissioning.md).
