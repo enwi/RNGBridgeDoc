@@ -1,38 +1,70 @@
 # Soldering Guide
 Soldering/Putting the PCB together is pretty simple, since there are not so many steps.
 
-## Step 1 - Capacitors
-Start by soldering on the 5 small capacitors first. These go on the pads with the names `C1`, `C2`, `C3`, `C4` and `C5`.
+## Step 1 - SMD components
+Start by soldering on the all SMD components first. 
+These at least include five capacitors, a single LED and a single resistor.
+The capacitors are soldered on the pads named `C1`, `C2`, `C3`, `C4` and `C5`. The resistor is soldered to pad `R7` and the LED to pad `D4`.
 
-Then continue with the bigger capacitor and solder it on the pad `C6`.
+If you opted for the extra output components you will also have to solder six more resistors and three LEDs in this step.
+The resistors are soldered on to the pads named `R1`, `R2`, `R3`, `R4`, `R5` and `R6`. The LEDs are soldered to the pads `D1`, `D2` and `D3`.
 
-## Step 2 - MAX3232
-Next push the MAX3232 IC into the PCB, turn the PCB around and solder it in from the bottom.
+Your PCB should now look something like this:
+![PCB](https://github.com/enwi/RNGBridgeDoc/blob/main/images/smd_soldered.png)
 
-> It should go in the spot which is marked as `U1`.
-> Make sure that the notch of the IC macthes with the one printed on the PCB.
+## Step 2 - MAX3232 and transistors
+Next push the MAX3232 IC into holes marked as `U1` on the PCB.
+Make sure that the notch of the IC is aligned with the one printed on the PCB.
+Then turn the PCB around and solder it in from the bottom.
+
+If you opted for the extra output components you will also have to push the three transistors into the holes marked `Q1`, `Q2` and `Q3`.
+Also make sure that the shape of the housing matches the one printed on the PCB.
+Then turn the PCB around and solder them in from the bottom.
+After that break or snip off the legs of the transistors.
+
+Your PCB should now look something like this:
+![PCB](https://github.com/enwi/RNGBridgeDoc/blob/main/images/thd_soldered.png)
 
 ## Step 3 - Connectors
-Take the two socket strips, push them into the PCB, turn the PCB around and solder them in from the bottom.
+Take the three pin socket strip and push it into the holes marked `J2` on the PCB.
+Turn the PCB around and solder it in from the bottom.
+
+Repeat above steps for two socket strips of the ESP (Note these are only included if you opted for the ESP8266).
+Note that these go into the holes inside of the outline of the ESP8266 D1 Mini an NOT into the holes marked as `J3` and `J4`.
+
+Now is also a good time to solder two of the pin headers onto the ESP8266 D1 Mini.
+
+If you opted for the extra output components you will also have to push the three terminal block recepticles into the holes marked as `J5`, `J6` and `J7`.
+Turn the PCB around and solder them in from the bottom.
+Tip: solder these recepticles before soldering the scoket strips, it will be easier.
+
+Your PCB should now look something like this:
+![PCB](https://github.com/enwi/RNGBridgeDoc/blob/main/images/connectors_soldered.png)
 
 ## Step 4 - RJ12
-Take the RJ12 connector and push it into the PCB, turn the PCB around and solder it in from the bottom.
+Take the RJ12 connector and push it into the holes marked as `J1` on the PCB.
+Turn the PCB around and solder it in from the bottom.
 
-Your PCB should now look like this:
-![PCB](https://github.com/enwi/RNGBridgeDoc/blob/main/images/soldering.png)
+Your PCB should now look something like this:
+![PCB](https://github.com/enwi/RNGBridgeDoc/blob/main/images/rj12_soldered.png)
 
 ## Step 5 - Power and ESP8266
-Take the power converter and plug it into the 3 pin socket strip (it should only go in one way).
+RNGBridge can be powered either by the charge controller (using the optional buck converter) or through the USB of the ESP8266 D1 Mini.
 
-Then take the ESP8266 and plug it into the 2x4 pin socket strip.
-Make sure that the antenna and the body of the ESP8266 are aligned in the direction of the arrow on the PCB. 
+> Note that you can ONLY have RNGBridge powered by EITHER the buck converter OR the USB. Connecting BOTH at the SAME time can lead to BOTH RNGBridge and/or your charge controller being destroyed!
 
-> In other words the ESP8266 should NOT be over top of the MAX3232, but off to the side of the PCB.
+For powering RNGBridge by the charge controller, plug in the buck converter into the socket strip marked as `J2`.
+It should look something like this:
+![PCB](https://github.com/enwi/RNGBridgeDoc/blob/main/images/rj12_powered.png)
 
-If everything went according to plan, then your PCB should now look like this:
-![PCB](https://github.com/enwi/RNGBridgeDoc/blob/main/images/finished.png)
+For powering RNGBridge by USB, plug in a USB to the ESP8266 D1 Mini.
+It should look something like this:
+![PCB](https://github.com/enwi/RNGBridgeDoc/blob/main/images/usb_powered.png)
 
-## Step 6 - Plug it in
-Get an RJ12 cable and connect `RNG to WiFi` to your Renogy charge controller.
+If everything went according to plan, then your PCB should now look something like this:
+![PCB](https://github.com/enwi/RNGBridgeDoc/blob/main/images/complete.png)
+
+## Step 6 - Commissioning
+Get an RJ12 cable and connect `RNGBridge` to your Renogy charge controller.
 
 You can continue with the [Commissioning Guide](https://github.com/enwi/RNGBridgeDoc/blob/main/comissioning.md)
