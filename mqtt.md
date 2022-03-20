@@ -6,14 +6,14 @@ It supports credentials so you can also connect to secured MQTT Brokers.
 1. Open the settings menu by clicking the gear icon in the top right of the page.
 2. Click on the panel named `MQTT`.
 3. Enable `MQTT`.
-4. Enter the MQTT Broker IP e.g. `192.168.2.2` in the `Server` field
-5. Optionally enter the MQTT Broker port e.g. `1883` in the `Port` field (default is 1883 so if you are using the same port you can skip this step)
-6. Optionally enter the MQTT client identifier used by `RNGBridge` in the `Id` field
-7. Optionally enter the MQTT Broker username in the `User` field
-8. Optionally enter the MQTT Broker password in the `Password` field
-9. Enter the MQTT Topic where `RNGBridge` should publish the data e.g `/solar/rng` (default is `/rng`)
-10. If you verified your settings press the `SAVE MQTT CONFIG` button
-11. `RNGBridge` will reboot and try to connect to the MQTT Broker and displays the status on the settings page
+4. Enter the MQTT Broker IP e.g. `192.168.2.2` in the `Server` field.
+5. Optionally enter the MQTT Broker port e.g. `1883` in the `Port` field (default is 1883 so if you are using the same port you can skip this step).
+6. Optionally enter the MQTT client identifier used by `RNGBridge` in the `Id` field.
+7. Optionally enter the MQTT Broker username in the `User` field.
+8. Optionally enter the MQTT Broker password in the `Password` field.
+9. Enter the MQTT Topic where `RNGBridge` should publish the data e.g `/solar/rng` (default is `/rng`).
+10. If you verified your settings press the `SAVE MQTT CONFIG` button.
+11. `RNGBridge` will reboot and try to connect to the MQTT Broker and displays the status on the settings page.
 
 > Note that due to the limited resources of the ESP8266 only Brokers without TLS/SSL are supported for now
 
