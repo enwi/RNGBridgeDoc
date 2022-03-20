@@ -1,27 +1,30 @@
 # MQTT
-`RNG to WiFi` can publish the data read from your Charge Controller to a local MQTT Broker, thus making it accessible to other devices or home automation systems.
+`RNGBridge` can publish the data read from your Charge Controller to a local MQTT Broker, thus making it accessible to other devices or home automation systems.
 It supports credentials so you can also connect to secured MQTT Brokers.
 
 ## Setup
-1. Go to the MQTT tab
-2. Enter the MQTT Broker ip e.g. `192.168.2.16` in the `Broker IP` field
-3. Enter the MQTT Broker port e.g. `1883` in the `Broker Port` field (default is 1883 so if you are using the same port you can skip this step)
-4. Enter the MQTT Topic where `RNG to WiFi` should publish the data e.g `/solar/rng` (default is `/rng`)
-5. Optionally enter the MQTT username and password if you use a password protected MQTT Broker (default is no credentials)
-6. Enable the MQTT service by enabling the `Enable` switch
-7. Watch the `Status` field, it should display `Connected` if everything went according to plan
+1. Open the settings menu by clicking the gear icon in the top right of the page.
+2. Click on the panel named `MQTT`.
+3. Enable `MQTT`.
+4. Enter the MQTT Broker IP e.g. `192.168.2.2` in the `Server` field
+5. Optionally enter the MQTT Broker port e.g. `1883` in the `Port` field (default is 1883 so if you are using the same port you can skip this step)
+6. Optionally enter the MQTT client identifier used by `RNGBridge` in the `Id` field
+7. Optionally enter the MQTT Broker username in the `User` field
+8. Optionally enter the MQTT Broker password in the `Password` field
+9. Enter the MQTT Topic where `RNGBridge` should publish the data e.g `/solar/rng` (default is `/rng`)
+10. If you verified your settings press the `SAVE MQTT CONFIG` button
+11. `RNGBridge` will reboot and try to connect to the MQTT Broker and displays the status on the settings page
 
 > Note that due to the limited resources of the ESP8266 only Brokers without TLS/SSL are supported for now
 
+<img src="https://github.com/enwi/RNGBridgeDoc/blob/main/images/gif/mqtt.gif" width="600">
+
 ## Troubleshooting
-### Status field shows `IP wrong`
-Verify that you entered the correct IP address or reload the site and try again.
-
-### Status field shows `Port wrong`
-Verify that you entered the correct port or reload the site and try again.
-
-### Status field shows `IP and Port wrong`
-Verify that you entered the correct IP address and port or reload the site and try again.
+### Status field shows `Could not connect` or `Disconnected`
+- Verify your configuration and press the `SAVE MQTT CONFIG` button if you made changes.
+- Verify your MQTT Broker is reachable (e.g. with `MQTT Explorer`)
+- Wait a minute and check if the status changed
+- If you still have issues get help on my discord server by clicking on this icon -> [![Discord](https://img.shields.io/discord/781219798931603527.svg?label=enwi&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/YxVyJWX62h)
 
 ## Data Structure
 The current Charge Controller data is sent every 2 seconds and is provided as a JSON object as follows:
@@ -109,7 +112,7 @@ The current Charge Controller data is sent every 2 seconds and is provided as a 
 BXX indicates the bit of the number
 
 ## Other messages
-On connection to the MQTT Broker `RNG to WiFi` will send a connection message which indicates that the device is online. This message is being retained as long as the connection to the Broker stays alive. If `RNG to WiFi` is being disconnected due to different reasons the broker will send a last will message. This disconnect message is also being retained. So whenever another client subscribes to the topic it will be notified on whether `RNG to WiFi` is online or offline.
+On connection to the MQTT Broker `RNGBridge` will send a connection message which indicates that the device is online. This message is being retained as long as the connection to the Broker stays alive. If `RNGBridge` is being disconnected due to different reasons the broker will send a last will message. This disconnect message is also being retained. So whenever another client subscribes to the topic it will be notified on whether `RNGBridge` is online or offline.
 
 ### Connect message
 ```

@@ -1,7 +1,7 @@
 # First comissioning of `RNGBridge`
 
-## Step 1
-Connect `RNGBridge` with an `RJ12` cable to your Charge Controllers `RS232` port. 
+## Step 1 - Connect `RNGBridge` to charge controller
+Connect `RNGBridge` with an `RJ12` cable to your charge controllers `RS232` port. 
 The orange status LED on `RNGBridge` will light up solid for a few seconds. 
 Once the LED starts blinking at a 1 second interval you can continue with the next step.
 
@@ -9,10 +9,10 @@ Once the LED starts blinking at a 1 second interval you can continue with the ne
 > Double check your wiring and make sure your device is supported as described in [Tested Controllers](https://github.com/enwi/RNGBridgeDoc/blob/main/controllers.md).
 > If you still have issues get help on my discord server by clicking on this icon -> [![Discord](https://img.shields.io/discord/781219798931603527.svg?label=enwi&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/YxVyJWX62h)
 
-## Step 2
+## Step 2 - Connect to `RNGBridge` wifi
 Connect your phone/tablet/pc to the WiFi network called `rngbridge` followed by a mix of 12 letters and numbers for example `rngbridge E8DB849C6FDF`
 
-## Step 3
+## Step 3 - Open user interface 
 Once connected, your phone/tablet/pc should ask you to sign in to rngbridge (captive portal).
 On Android you will need to click on the popup on other devices (iOS, MacOS) the captive portal will open automatically.
 Once opened you are greeted with the user interface.
@@ -25,12 +25,12 @@ If you want to connect `RNGBridge` with your local WiFi network continue with st
 >If the captive portal does not open or no message is displayed you can alternatively type in the URL `192.168.4.1` and open the website (<a href="http://192.168.4.1" target="_blank">or click here</a>).
 >After the page loaded, you are presented with the user interface of `RNGBridge`.
 
-## Step 4
-Open the settings menu by clicking the gear icon in the top right of the page.
-Then click on the panel named `WiFi`.
-Next select `Client` from the `WiFi mode` dropdown.
-In the field `SSID` enter the name of the WiFi network you want `RNGBridge` to connect with.
-In the field `Password` enter the password of the WiFi network.
+## Step 4 - Connect to WiFi network
+1. Open the settings menu by clicking the gear icon in the top right of the page.
+2. Click on the panel named `WiFi`.
+3. select `Client` from the `WiFi mode` dropdown.
+4. Enter the name of the WiFi network you want `RNGBridge` to connect with in the `SSID` field.
+5. Enter the password of the WiFi network in the `Password` field.
 
 DHCP is selected by default, meaning `RNGBridge` will get an IP assigned from your network router.
 If you want to give it a static IP address or want to do some advanced configuration (`Netmask`, `Gateway`, `DNS`) disable DHCP and more options will appear.
@@ -41,7 +41,7 @@ If it can't connect due to the WiFi not being available or the settings being in
 
 <img src="https://github.com/enwi/RNGBridgeDoc/blob/main/images/gif/wifi_client.gif" width="600">
 
-## Step 5
+## Step 5 - Open user interface from local network device
 Once `RNGBridge` has connected successfully with your local WiFi network you can access the user interface from all devices connected to you local network.
 For that open a webbrowser and enter the IP address of `RNGBridge`.
 
