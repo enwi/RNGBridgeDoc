@@ -34,9 +34,10 @@ All supported and tested Charge Controllers can be found [here](https://github.c
 ## Getting started
 - [Assemble `RNGBridge` using the build instructions](https://github.com/enwi/RNGBridgeDoc/blob/main/soldering.md)
 - [Setup your device using the commissioning guide](https://github.com/enwi/RNGBridgeDoc/blob/main/comissioning.md)
-- [Control load output through REST api](https://github.com/enwi/RNGBridgeDoc/blob/main/rest.md)
 - [Connect `RNGBridge` to your MQTT Broker](https://github.com/enwi/RNGBridgeDoc/blob/main/mqtt.md)
 - [Publishing data to PVOutput](https://github.com/enwi/RNGBridgeDoc/blob/main/pvoutput.md)
+- [Automatically control load output and `Out1`, `Out2` and `Out3`](https://github.com/enwi/RNGBridgeDoc/blob/main/control.md)
+- [Control load output through REST api](https://github.com/enwi/RNGBridgeDoc/blob/main/rest.md)
 
 ## About
 See the about section [here](https://github.com/enwi/RNGBridgeDoc/blob/main/about.md)
