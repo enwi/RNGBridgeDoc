@@ -55,3 +55,11 @@ A list of Renogy Charge Controllers that have been tested (feel free to submit a
 | `SR-ML2420`         | VXXXXXX | :x:                | :grey_question:    | 20A model |
 | `SR-ML2430`         | VXXXXXX | :white_check_mark: | :grey_question:    | 30A model |
 | `SR-ML4860`         | VXXXXXX | :x:                | :grey_question:    | 60A model |
+
+### TOYO
+| Model               | Version | Tested             | Compatible         | Notes |
+|:--------------------|---------|--------------------|--------------------|-------|
+| `SR-ML2420`         | VXXXXXX | :white_check_mark: | :white_check_mark: | 20A, 12/24V |
+| `SR-ML2440`         | VXXXXXX | :x:                | :grey_question:    | 40A, 12/24V |
+| `SR-ML2430`         | VXXXXXX | :x:                | :grey_question:    | 30A, 12/24V |
+| `SR-ML4860`         | VXXXXXX | :x:                | :grey_question:    | 60A, 12/24/36/48V |
