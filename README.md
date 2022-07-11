@@ -6,7 +6,7 @@ Documentation and guides for RNGBridge V2, an RS232 to WiFi bridge for Renogy so
 
 ## Feature overview
 - Beautiful web interface
-   - Control load output remotely
+   - Control `Load` remotely
    - Get more information about system errors by hovering over them
    - Battery capacity intuitively visualized
    - ![web interface](https://github.com/enwi/RNGBridgeDoc/blob/main/images/webinterface.png)
@@ -17,11 +17,11 @@ Documentation and guides for RNGBridge V2, an RS232 to WiFi bridge for Renogy so
    - Configurable `topic`, `client id`, `port` and `ip`
 - Optional data publishing to [PVOutput](https://pvoutput.org)
    - Configurable time offset
-- Automatic load, out1, out2 and out3 control
+- Automatic `Load`, `Out1`, `Out2` and `Out3` control
    - lower/upper setpoint
    - can be inverted
    - control depending on battery SOC(state of charge) or battery voltage
-- Control load output via [REST api](https://github.com/enwi/RNGBridgeDoc/blob/main/rest.md)
+- [Control `Load`, `Out1`, `Out2` and `Out3` through REST api](https://github.com/enwi/RNGBridgeDoc/blob/main/rest.md)
 
 Missing anything? If you want support for a custom feature or want to suggest something, feel free to open an issue or join the [Discord Server](https://discord.gg/YxVyJWX62h).
 
@@ -37,7 +37,7 @@ All supported and tested Charge Controllers can be found [here](https://github.c
 - [Connect `RNGBridge` to your MQTT Broker](https://github.com/enwi/RNGBridgeDoc/blob/main/mqtt.md)
 - [Publishing data to PVOutput](https://github.com/enwi/RNGBridgeDoc/blob/main/pvoutput.md)
 - [Automatically control load output and `Out1`, `Out2` and `Out3`](https://github.com/enwi/RNGBridgeDoc/blob/main/control.md)
-- [Control load output through REST api](https://github.com/enwi/RNGBridgeDoc/blob/main/rest.md)
+- [Control `Load`, `Out1`, `Out2` and `Out3` through REST api](https://github.com/enwi/RNGBridgeDoc/blob/main/rest.md)
 
 ## About
 See the about section [here](https://github.com/enwi/RNGBridgeDoc/blob/main/about.md)
