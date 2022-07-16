@@ -6,11 +6,12 @@ Documentation and guides for RNGBridge V2, an RS232 to WiFi bridge for Renogy so
 
 ## Feature overview
 - Beautiful web interface
-   - Control `Load` remotely
+   - Control `Load`, `Out1`, `Out2` and `Out3` remotely
    - Get more information about system errors by hovering over them
    - Battery capacity intuitively visualized
    - ![web interface](https://github.com/enwi/RNGBridgeDoc/blob/main/images/webinterface.png)
 - Over the air software updates (`OTA`)
+   - Displays a banner with download link when a new update is available
    - Keeps configuration after update
 - Optional data publishing to [MQTT](https://en.wikipedia.org/wiki/MQTT)
    - Works with protected Brokers (`username`, `password`)
