@@ -1,12 +1,15 @@
 # Automatic Load and Output (`Out1`, `Out2`, `Out3`) control
 `RNGBridge` can automatically control the load output of the charge controller as well as three customizable outputs namely `Out1`, `Out2` and `Out3`.
-Each output (`Load`, `Out1`, `Out2` and `Out3`) can have indivual settings that are fully customizable. The outputs `Out1`, `Out2` and `Out3` also feature a status LED, which will be lit if the respective output is active/on.
+Each output (`Load`, `Out1`, `Out2` and `Out3`) can have individual settings that are fully customizable.
+The outputs `Out1`, `Out2` and `Out3` also feature a status LED, which will be lit if the respective output is active/on.
 
 The settings consist of a `control input`, a lower and upper setpoint and an inversion flag.
 The `control input` defines by which value (provided by the charge controller) the output should be controlled.
 You can choose between:
-- `Battery SOC` (Current state of charge ranging from 0% (battery empty) to 100% (battery fully charged))
-- `Battery Voltage` (Current battery voltage ranging from 0.0V to ~48.0V)
+- `Battery SOC` (State of charge ranging from 0% (battery empty) to 100% (battery fully charged))
+- `Battery Voltage` (Battery voltage ranging from 0.0V to ~48.0V)
+- `Panel Voltage` (Panel voltage ranging from 0.0V to ~160.0V)
+- `Panel Current` (Panel current ranging from 0.0A to ~120.0A)
 
 The lower setpoint defines when the output should be turned off if the `control input` falls below this threshold (`control input` `<` lower setpoint).
 The upper setpoint defines when the output should be turned on if the `control input` is equal to or larger than this threshold (`control input` `>=` upper setpoint).

@@ -11,17 +11,18 @@ Documentation and guides for RNGBridge V2, an RS232 to WiFi bridge for Renogy so
    - Battery capacity intuitively visualized
    - ![web interface](https://github.com/enwi/RNGBridgeDoc/blob/main/images/webinterface.png)
 - Over the air software updates (`OTA`)
-   - Displays a banner with download link when a new update is available
+   - Displays a banner with download link when a new update is available (since [V2.5.0](https://github.com/enwi/RNGBridgeDoc/releases/tag/2.5.0))
    - Keeps configuration after update
 - Optional data publishing to [MQTT](https://en.wikipedia.org/wiki/MQTT)
    - Works with protected Brokers (`username`, `password`)
    - Configurable `topic`, `client id`, `port` and `ip`
+   - Configurable update interval (since [V2.3.0](https://github.com/enwi/RNGBridgeDoc/releases/tag/2.3.0))
 - Optional data publishing to [PVOutput](https://pvoutput.org)
    - Configurable time offset
 - Automatic `Load`, `Out1`, `Out2` and `Out3` control
    - lower/upper setpoint
    - can be inverted
-   - control depending on battery SOC(state of charge) or battery voltage
+   - control depending on battery SOC(state of charge), battery voltage, panel voltage (since [V2.6.0](https://github.com/enwi/RNGBridgeDoc/releases/tag/2.6.0)) or panel current (since [V2.6.0](https://github.com/enwi/RNGBridgeDoc/releases/tag/2.6.0))
 - [Control `Load`, `Out1`, `Out2` and `Out3` through REST api](https://github.com/enwi/RNGBridgeDoc/blob/main/rest.md)
 
 Missing anything? If you want support for a custom feature or want to suggest something, feel free to open an issue or join the [Discord Server](https://discord.gg/YxVyJWX62h).
