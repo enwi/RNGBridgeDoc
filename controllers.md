@@ -26,7 +26,7 @@ A list of Renogy Charge Controllers that have been tested (feel free to submit a
 ### Wanderer
 | Model               | Version | Tested             | Compatible         | Notes |
 |:--------------------|---------|--------------------|--------------------|-------|
-| `RNG-CTRL-WND10`    | VXXXXXX | :x:                | :grey_question:    | 10A model |
+| `RNG-CTRL-WND10`    | VXXXXXX | :white_check_mark: | :white_check_mark: | 10A model |
 | `RNG-CTRL-WND30-LI` | VXXXXXX | :x:                | :grey_question:    | 30A model |
 
 ### Voyager (waterproof)
