@@ -17,13 +17,17 @@ Documentation and guides for RNGBridge V2, an RS232 to WiFi bridge for Renogy so
    - Works with protected Brokers (`username`, `password`)
    - Configurable `topic`, `client id`, `port` and `ip`
    - Configurable update interval (since [V2.3.0](https://github.com/enwi/RNGBridgeDoc/releases/tag/2.3.0))
+   - Control `Load`, `Out1`, `Out2` and `Out3` (since [V2.7.0](https://github.com/enwi/RNGBridgeDoc/releases/tag/2.7.0))
+   - Supports [Homeassistant Discovery](https://www.home-assistant.io/docs/mqtt/discovery/) (since [V2.7.0](https://github.com/enwi/RNGBridgeDoc/releases/tag/2.7.0))
 - Optional data publishing to [PVOutput](https://pvoutput.org)
    - Configurable time offset
 - Automatic `Load`, `Out1`, `Out2` and `Out3` control
    - lower/upper setpoint
    - can be inverted
    - control depending on battery SOC(state of charge), battery voltage, panel voltage (since [V2.6.0](https://github.com/enwi/RNGBridgeDoc/releases/tag/2.6.0)) or panel current (since [V2.6.0](https://github.com/enwi/RNGBridgeDoc/releases/tag/2.6.0))
-- [Control `Load`, `Out1`, `Out2` and `Out3` through REST api](https://github.com/enwi/RNGBridgeDoc/blob/main/rest.md)
+- [REST API](https://github.com/enwi/RNGBridgeDoc/blob/main/rest.md)
+   - Control `Load`, `Out1`, `Out2` and `Out3`
+   - Request current charge controller state (since [V2.7.0](https://github.com/enwi/RNGBridgeDoc/releases/tag/2.7.0))
 
 Missing anything? If you want support for a custom feature or want to suggest something, feel free to open an issue or join the [Discord Server](https://discord.gg/YxVyJWX62h).
 
@@ -40,6 +44,7 @@ All supported and tested Charge Controllers can be found [here](https://github.c
 - [Publishing data to PVOutput](https://github.com/enwi/RNGBridgeDoc/blob/main/pvoutput.md)
 - [Automatically control load output and `Out1`, `Out2` and `Out3`](https://github.com/enwi/RNGBridgeDoc/blob/main/control.md)
 - [Control `Load`, `Out1`, `Out2` and `Out3` through REST api](https://github.com/enwi/RNGBridgeDoc/blob/main/rest.md)
+- [Request current charge controller state](https://github.com/enwi/RNGBridgeDoc/blob/main/rest.md)
 
 ## About
 See the about section [here](https://github.com/enwi/RNGBridgeDoc/blob/main/about.md)
