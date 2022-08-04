@@ -59,7 +59,8 @@ If wanted the MQTT obect could be extended to also have these values included.
         "o3": false
     },
     "up": 80,
-    "he": 38008
+    "he": 38008,
+    "rssi": -76
 }
 ```
 
@@ -93,6 +94,7 @@ If wanted the MQTT obect could be extended to also have these values included.
 | pvosta          | Bool   | String            | Current human readable state of the PVOutput module of `RNGBridge` |
 | up              | Bool   | Number            | Uptime in seconds                            |
 | he              | Bool   | Number            | Current heap usage in bytes                  |
+| rssi            | Number | -150 - 0          | WiFi signal strength aka rssi in dBm         |
 
 #### state values
 - 0: charging deactivated

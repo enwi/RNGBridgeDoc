@@ -60,7 +60,8 @@ The current Charge Controller data is sent at the configured interval and is pub
         "o1": false,
         "o2": true,
         "o3": false
-    }
+    },
+    "rssi": -76
 }
 ```
 
@@ -89,6 +90,7 @@ The current Charge Controller data is sent at the configured interval and is pub
 | o1              | Bool   | true/false        | RNGBridge `Out1` enabled(true) or disabled(false) |
 | o2              | Bool   | true/false        | RNGBridge `Out2` enabled(true) or disabled(false) |
 | o3              | Bool   | true/false        | RNGBridge `Out3` enabled(true) or disabled(false) |
+| rssi            | Number | -150 - 0          | WiFi signal strength aka rssi in dBm         |
 
 #### state values
 - 0: charging deactivated
