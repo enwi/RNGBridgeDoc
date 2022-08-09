@@ -45,6 +45,7 @@ All supported and tested Charge Controllers can be found [here](https://github.c
 - [Automatically control load output and `Out1`, `Out2` and `Out3`](https://github.com/enwi/RNGBridgeDoc/blob/main/control.md)
 - [Control `Load`, `Out1`, `Out2` and `Out3` through REST api](https://github.com/enwi/RNGBridgeDoc/blob/main/rest.md)
 - [Request current charge controller state](https://github.com/enwi/RNGBridgeDoc/blob/main/rest.md)
+- [Get debug output](https://github.com/enwi/RNGBridgeDoc/blob/main/debugging.md)
 
 ## About
 See the about section [here](https://github.com/enwi/RNGBridgeDoc/blob/main/about.md)

@@ -75,11 +75,9 @@ If wanted the MQTT obect could be extended to also have these values included.
 | l               | Object | -                 | JSON object containing load data             |
 | vo              | Float  | 0.0 - XX.X        | Load voltage in Volts                        |
 | cu              | Float  | 0.0 - XX.X        | Load current in Ampere                       |
-| po              | Number | 0 - XXXX          | Load power in Watts, note multiplying voltage with current gives you a more accurate value as this is the value returned by the charge controller |
 | p               | Object | -                 | JSON object containing solar panel data      |
 | vo              | Float  | 0.0 - XX.X        | Solar panel voltage in Volts                 |
 | cu              | Float  | 0.0 - XX.X        | Solar panel current in Ampere                |
-| po              | Number | 0 - XXXX          | Solar panel power in Watts, note multiplying voltage with current gives you a more accurate value as this is the value returned by the charge controller |
 | c               | Object | -                 | JSON object containing controller state data |
 | st              | Number | 0 - 6             | Charge controller state, mode of operation   |
 | er              | Number | 0 - 33488896      | Charge controller error state                |

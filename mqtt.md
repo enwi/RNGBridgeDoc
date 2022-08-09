@@ -42,13 +42,11 @@ The current Charge Controller data is sent at the configured interval and is pub
     },
     "l": {
         "vo": 13.5,
-        "cu": 1.56,
-        "po": 21
+        "cu": 1.56
     },
     "p": {
         "vo": 32.6,
-        "cu": 5.45,
-        "po": 177
+        "cu": 5.45
     },
     "c": {
         "st": 2,
@@ -76,11 +74,9 @@ The current Charge Controller data is sent at the configured interval and is pub
 | l               | Object | -                 | JSON object containing load data             |
 | vo              | Float  | 0.0 - XX.X        | Load voltage in Volts                        |
 | cu              | Float  | 0.0 - XX.X        | Load current in Ampere                       |
-| po              | Number | 0 - XXXX          | Load power in Watts, note multiplying voltage with current gives you a more accurate value as this is the value returned by the charge controller |
 | p               | Object | -                 | JSON object containing solar panel data      |
 | vo              | Float  | 0.0 - XX.X        | Solar panel voltage in Volts                 |
 | cu              | Float  | 0.0 - XX.X        | Solar panel current in Ampere                |
-| po              | Number | 0 - XXXX          | Solar panel power in Watts, note multiplying voltage with current gives you a more accurate value as this is the value returned by the charge controller |
 | c               | Object | -                 | JSON object containing controller state data |
 | st              | Number | 0 - 6             | Charge controller state, mode of operation   |
 | er              | Number | 0 - 33488896      | Charge controller error state                |

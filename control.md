@@ -31,9 +31,9 @@ Here is an image to show the outputs.
 The open collector output can be used to control devices or loads that have a higher operating voltage or need higher currents than `RNGBridge` can provide.
 A simple example is to control a 12V device using a relay.
 A relay is needed, because the open collector output can only control loads of up to 24V and 500mA.
-In this case you can use a 5V (e.g. SRD-05VDC-SL-C), 12V (e.g. SRD-12VDC-SL-C) or even 24V (e.g. SRD-24VDC-SL-C) relais or anything in between.
+In this case you can use a 5V (e.g. SRD-05VDC-SL-C), 12V (e.g. SRD-12VDC-SL-C) or even 24V (e.g. SRD-24VDC-SL-C) relay or anything in between.
 You will also need to provide a 5V, 12V or 24V power supply respectively to be able to control your relay (This will most likely be provided by your solar system).
 You can then connect one wire of the relay coil to your positive terminal (anode, +) of the power supply and the other wire of the relay coil to the open collector of `RNGBridge`.
 The negative terminal (cathode, -) of the power supply will be connected to the ground of `RNGBridge`.
 Then hook up your load to the normally closed (NC) and common (C) or normally open (NO) and common (C) connections of the relay.
-Now you can control a load using a relais connected to `RNGBridge`.
+Now you can control a load using a relay connected to `RNGBridge`.
