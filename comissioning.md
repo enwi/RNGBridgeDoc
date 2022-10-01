@@ -19,13 +19,24 @@ Once opened you are greeted with the user interface.
 
 > On some devices this can take up to 30 seconds for the message to be displayed.
 
-If you want to use `RNGBridge` as standalone aka in access point mode you are done with comissioning now. 
-If you want to connect `RNGBridge` with your local WiFi network continue with step 4.
-
 >If the captive portal does not open or no message is displayed you can alternatively type in the URL `192.168.4.1` and open the website (<a href="http://192.168.4.1" target="_blank">or click here</a>).
 >After the page loaded, you are presented with the user interface of `RNGBridge`.
 
-## Step 4 - Connect to WiFi network
+## Step 4 - Change device address
+Depending on your charge controller or if you have configured it with the bluetooth module before
+it might be needed to change the modbus device address `RNGBridge` uses to communicate with your charge controller.
+One good indication for this is if the orange led stays lit for 2 seconds, turns off for 2 seconds and the data in the GUI is all zeros and does not change.
+To change the address follow the follwing steps:
+
+1. Open the settings menu by clicking the gear icon in the top right of the page.
+2. Click on the panel named `Device`.
+3. Enter the device address (1 - 255 where 255 is default) in the `Address` field
+4. Click on `SAVE DEVICE CONFIG`
+
+If you want to use `RNGBridge` as standalone aka in access point mode you are done with comissioning now. 
+If you want to connect `RNGBridge` with your local WiFi network continue with step 5.
+
+## Step 5 - Connect to WiFi network
 1. Open the settings menu by clicking the gear icon in the top right of the page.
 2. Click on the panel named `WiFi`.
 3. select `Client` from the `WiFi mode` dropdown.
@@ -41,7 +52,7 @@ If it can't connect due to the WiFi not being available or the settings being in
 
 <img src="https://github.com/enwi/RNGBridgeDoc/blob/main/images/gif/wifi_client.gif" width="600">
 
-## Step 5 - Open user interface from local network device
+## Step 6 - Open user interface from local network device
 Once `RNGBridge` has connected successfully with your local WiFi network you can access the user interface from all devices connected to you local network.
 For that open a webbrowser and enter the IP address of `RNGBridge`.
 
