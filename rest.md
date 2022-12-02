@@ -37,7 +37,9 @@ If wanted the MQTT obect could be extended to also have these values included.
         "ch": 79,
         "vo": 12.11761,
         "cu": 8.252449,
-        "te": 18
+        "te": 18,
+        "ge": 100,
+        "co": 51
     },
     "l": {
         "vo": 12.11761,
@@ -72,6 +74,8 @@ If wanted the MQTT obect could be extended to also have these values included.
 | vo              | Float  | 0.0 - XX.X        | Battery voltage in Volts                     |
 | cu              | Float  | 0.0 - XX.X        | Battery current in Ampere                    |
 | te              | Float  | 0.0 - XX.X        | Battery temperature in degrees C             |
+| ge              | Number | 0 - X             | Daily energy generation in Watthours         |
+| co              | Number | 0 - X             | Daily energy consumption in Watthours        |
 | l               | Object | -                 | JSON object containing load data             |
 | vo              | Float  | 0.0 - XX.X        | Load voltage in Volts                        |
 | cu              | Float  | 0.0 - XX.X        | Load current in Ampere                       |

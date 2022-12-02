@@ -19,6 +19,7 @@ Documentation and guides for RNGBridge V2, an RS232 to WiFi bridge for Renogy so
    - Configurable update interval (since [V2.3.0](https://github.com/enwi/RNGBridgeDoc/releases/tag/2.3.0))
    - Control `Load`, `Out1`, `Out2` and `Out3` (since [V2.7.0](https://github.com/enwi/RNGBridgeDoc/releases/tag/2.7.0))
    - Supports [Homeassistant Discovery](https://www.home-assistant.io/docs/mqtt/discovery/) (since [V2.7.0](https://github.com/enwi/RNGBridgeDoc/releases/tag/2.7.0))
+   - Publish data on individual topics (since [V2.10.0](https://github.com/enwi/RNGBridgeDoc/releases/tag/2.10.0))
 - Optional data publishing to [PVOutput](https://pvoutput.org)
    - Configurable time offset
 - Automatic `Load`, `Out1`, `Out2` and `Out3` control

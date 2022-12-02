@@ -16,8 +16,9 @@ Since ([V2.7.0](https://github.com/enwi/RNGBridgeDoc/releases/tag/2.7.0)) `RNGBr
 10. Optionally enter the MQTT update interval in seconds in the `Update interval (seconds)` field.
 11. Optionally enable Homeassistant Discovery and control `RNGBridge` directly through Homeassistant.
 12. Optionally enter the Homeassistant Discovery Topic in the field `Discovery Topic` (default is `homeassistant`, which is also the default of the [MQTT Integration](https://www.home-assistant.io/integrations/mqtt/)).
-13. If you verified your settings press the `SAVE MQTT CONFIG` button.
-14. `RNGBridge` will reboot and try to connect to the MQTT Broker and displays the status on the settings page.
+13. Optionally enable splitting the data json into individual state topics
+14. If you verified your settings press the `SAVE MQTT CONFIG` button.
+15. `RNGBridge` will reboot and try to connect to the MQTT Broker and displays the status on the settings page.
 
 > Note that due to the limited resources of the ESP8266 only Brokers without TLS/SSL are supported for now
 
@@ -38,7 +39,9 @@ The current Charge Controller data is sent at the configured interval and is pub
         "ch": 100,
         "vo": 13.5,
         "cu": 1.45,
-        "te": 25.0
+        "te": 25.0,
+        "ge": 100,
+        "co": 51
     },
     "l": {
         "vo": 13.5,
@@ -63,6 +66,21 @@ The current Charge Controller data is sent at the configured interval and is pub
 }
 ```
 
+If you have enabled the `Split data into individual topics` option additionally the following subtopics are published:
+- `/battery/charge`
+- `/battery/voltage`
+- `/battery/current`
+- `/battery/temperature`
+- `/battery/consumption`
+- `/battery/generation`
+- `/load/voltage`
+- `/load/current`
+- `/panel/voltage`
+- `/panel/current`
+- `/controller/state`
+- `/controller/error`
+- `/controller/temperature`
+
 ### Data values
 | Object/Variable | Type   | Value             | Description                                  |
 |:----------------|--------|-------------------|----------------------------------------------|
@@ -71,6 +89,8 @@ The current Charge Controller data is sent at the configured interval and is pub
 | vo              | Float  | 0.0 - XX.X        | Battery voltage in Volts                     |
 | cu              | Float  | 0.0 - XX.X        | Battery current in Ampere                    |
 | te              | Float  | 0.0 - XX.X        | Battery temperature in degrees C             |
+| ge              | Number | 0 - X             | Daily energy generation in Watthours         |
+| co              | Number | 0 - X             | Daily energy consumption in Watthours        |
 | l               | Object | -                 | JSON object containing load data             |
 | vo              | Float  | 0.0 - XX.X        | Load voltage in Volts                        |
 | cu              | Float  | 0.0 - XX.X        | Load current in Ampere                       |
@@ -98,7 +118,7 @@ The current Charge Controller data is sent at the configured interval and is pub
 - 6: current limiting (overpower)
 
 #### errorState values
-- B31: Reserved
+- B31: Fan alarm
 - B30: Charge MOS short circuit
 - B29: Anti-reverse MOS short circuit
 - B28: Solar panel reversly connected
