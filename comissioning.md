@@ -1,7 +1,7 @@
 # First comissioning of `RNGBridge`
 
 ## Step 1 - Connect `RNGBridge` to charge controller
-Connect `RNGBridge` with an `RJ12` cable to your charge controllers `RS232` port. 
+Depending on your model connect `RNGBridge` with an `RJ12` or `RJ45` cable to your charge controllers `RS232` or `RS485` port respectively. 
 The orange status LED on `RNGBridge` will light up solid for a few seconds. 
 Once the LED starts blinking at a 1 second interval you can continue with the next step.
 

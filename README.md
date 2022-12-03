@@ -1,7 +1,12 @@
 [![Discord](https://img.shields.io/discord/781219798931603527.svg?label=enwi&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/YxVyJWX62h)
 
-# RNGBridgeDoc V2
-Documentation and guides for RNGBridge V2, an RS232 to WiFi bridge for Renogy solar charge controllers with PVOutput and MQTT support
+# RNGBridgeDoc V3 
+Documentation and guides for RNGBridge V3, an RS485 or RS232 to WiFi bridge for Renogy solar charge controllers with PVOutput and MQTT support.
+
+Trying to find documentation of an older version?
+- [V2 documentation](https://github.com/enwi/RNGBridgeDoc/tree/v2)
+- [V1 documentation](https://github.com/enwi/RNGBridgeDoc/tree/v1)
+
 <!-- ![pcb](https://github.com/enwi/RNGBridgeDoc/blob/main/images/populated_pcb.jpg) -->
 
 ## Feature overview
@@ -33,7 +38,11 @@ Documentation and guides for RNGBridge V2, an RS232 to WiFi bridge for Renogy so
 Missing anything? If you want support for a custom feature or want to suggest something, feel free to open an issue or join the [Discord Server](https://discord.gg/YxVyJWX62h).
 
 ## Where to buy
-You can get [this kit](https://www.tindie.com/products/21360/) on my [tindie store](https://www.tindie.com/stores/enwi/#store-section-products)
+<a href="https://www.tindie.com/stores/enwi/"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="I sell on Tindie" width="200" height="104"></a>
+
+You can [get the RS485 kit here](https://www.tindie.com/products/28668/)
+
+The RS232 kit is still in the making.
 
 ## Supported devices
 All supported and tested Charge Controllers can be found [here](https://github.com/enwi/RNGBridgeDoc/blob/main/controllers.md)
