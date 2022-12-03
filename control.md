@@ -19,14 +19,14 @@ For example if you want the `Load` to turn on when the battery is almost fully c
 The inversion flag should be turned off.
 An example is shown in the below image
 
-<img src="https://github.com/enwi/RNGBridgeDoc/blob/main/images/control_example1.png" width="600">
+<img src="https://github.com/enwi/RNGBridgeDoc/blob/v2/images/control_example1.png" width="600">
 
 ## Controlling a relay using `Out1`, `Out2` or `Out3`
 The outputs `Out1`, `Out2` and `Out3` are open collector outputs that you can hook stuff up to with a voltage of up to 24V.
 Open collector means that the collector of the NPN transistor is available on the left pin of the connector and ground on the other.
 Here is an image to show the outputs.
 
-<img src="https://github.com/enwi/RNGBridgeDoc/blob/main/images/output.png" width="600">
+<img src="https://github.com/enwi/RNGBridgeDoc/blob/v2/images/output.png" width="600">
 
 The open collector output can be used to control devices or loads that have a higher operating voltage or need higher currents than `RNGBridge` can provide.
 A simple example is to control a 12V device using a relay.

@@ -22,7 +22,7 @@ Since ([V2.7.0](https://github.com/enwi/RNGBridgeDoc/releases/tag/2.7.0)) `RNGBr
 
 > Note that due to the limited resources of the ESP8266 only Brokers without TLS/SSL are supported for now
 
-<img src="https://github.com/enwi/RNGBridgeDoc/blob/main/images/gif/mqtt.gif" width="600">
+<img src="https://github.com/enwi/RNGBridgeDoc/blob/v2/images/gif/mqtt.gif" width="600">
 
 ## Troubleshooting
 ### Status field shows `Could not connect` or `Disconnected`

@@ -2,14 +2,14 @@
 
 # RNGBridgeDoc V2
 Documentation and guides for RNGBridge V2, an RS232 to WiFi bridge for Renogy solar charge controllers with PVOutput and MQTT support
-<!-- ![pcb](https://github.com/enwi/RNGBridgeDoc/blob/main/images/populated_pcb.jpg) -->
+<!-- ![pcb](https://github.com/enwi/RNGBridgeDoc/blob/v2/images/populated_pcb.jpg) -->
 
 ## Feature overview
 - Beautiful web interface
    - Control `Load`, `Out1`, `Out2` and `Out3` remotely
    - Get more information about system errors by hovering over them
    - Battery capacity intuitively visualized
-   - ![web interface](https://github.com/enwi/RNGBridgeDoc/blob/main/images/webinterface.png)
+   - ![web interface](https://github.com/enwi/RNGBridgeDoc/blob/v2/images/webinterface.png)
 - Over the air software updates (`OTA`)
    - Displays a banner with download link when a new update is available (since [V2.5.0](https://github.com/enwi/RNGBridgeDoc/releases/tag/2.5.0))
    - Keeps configuration after update
@@ -26,7 +26,7 @@ Documentation and guides for RNGBridge V2, an RS232 to WiFi bridge for Renogy so
    - lower/upper setpoint
    - can be inverted
    - control depending on battery SOC(state of charge), battery voltage, panel voltage (since [V2.6.0](https://github.com/enwi/RNGBridgeDoc/releases/tag/2.6.0)) or panel current (since [V2.6.0](https://github.com/enwi/RNGBridgeDoc/releases/tag/2.6.0))
-- [REST API](https://github.com/enwi/RNGBridgeDoc/blob/main/rest.md)
+- [REST API](https://github.com/enwi/RNGBridgeDoc/blob/v2/rest.md)
    - Control `Load`, `Out1`, `Out2` and `Out3`
    - Request current charge controller state (since [V2.7.0](https://github.com/enwi/RNGBridgeDoc/releases/tag/2.7.0))
 
@@ -39,14 +39,14 @@ You can get [this kit](https://www.tindie.com/products/21360/) on my [tindie sto
 All supported and tested Charge Controllers can be found [here](https://github.com/enwi/RNGBridgeDoc/blob/main/controllers.md)
 
 ## Getting started
-- [Assemble `RNGBridge` using the build instructions](https://github.com/enwi/RNGBridgeDoc/blob/main/soldering.md)
-- [Setup your device using the commissioning guide](https://github.com/enwi/RNGBridgeDoc/blob/main/comissioning.md)
-- [Connect `RNGBridge` to your MQTT Broker](https://github.com/enwi/RNGBridgeDoc/blob/main/mqtt.md)
-- [Publishing data to PVOutput](https://github.com/enwi/RNGBridgeDoc/blob/main/pvoutput.md)
-- [Automatically control load output and `Out1`, `Out2` and `Out3`](https://github.com/enwi/RNGBridgeDoc/blob/main/control.md)
-- [Control `Load`, `Out1`, `Out2` and `Out3` through REST api](https://github.com/enwi/RNGBridgeDoc/blob/main/rest.md)
-- [Request current charge controller state](https://github.com/enwi/RNGBridgeDoc/blob/main/rest.md)
-- [Get debug output](https://github.com/enwi/RNGBridgeDoc/blob/main/debugging.md)
+- [Assemble `RNGBridge` using the build instructions](https://github.com/enwi/RNGBridgeDoc/blob/v2/soldering.md)
+- [Setup your device using the commissioning guide](https://github.com/enwi/RNGBridgeDoc/blob/v2/comissioning.md)
+- [Connect `RNGBridge` to your MQTT Broker](https://github.com/enwi/RNGBridgeDoc/blob/v2/mqtt.md)
+- [Publishing data to PVOutput](https://github.com/enwi/RNGBridgeDoc/blob/v2/pvoutput.md)
+- [Automatically control load output and `Out1`, `Out2` and `Out3`](https://github.com/enwi/RNGBridgeDoc/blob/v2/control.md)
+- [Control `Load`, `Out1`, `Out2` and `Out3` through REST api](https://github.com/enwi/RNGBridgeDoc/blob/v2/rest.md)
+- [Request current charge controller state](https://github.com/enwi/RNGBridgeDoc/blob/v2/rest.md)
+- [Get debug output](https://github.com/enwi/RNGBridgeDoc/blob/v2/debugging.md)
 
 ## About
-See the about section [here](https://github.com/enwi/RNGBridgeDoc/blob/main/about.md)
+See the about section [here](https://github.com/enwi/RNGBridgeDoc/blob/v2/about.md)

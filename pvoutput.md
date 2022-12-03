@@ -17,7 +17,7 @@
 13. `RNGBridge` will reboot and try to fetch the update interval from pvoutput.org, sync the time and then upload your systems data every 5, 10 or 15 minutes (depending on what you set in the settings on pvoutput.org)
 14. The status on the `RNGBridge` settings page should display `Starting` followed by `Syncing time` followed by `Running` repeatedly followed by `Sent data (hour:minute)` where `hour:minute` is the timestamp of when the data was sent to pvoutput.org
 
-<img src="https://github.com/enwi/RNGBridgeDoc/blob/main/images/gif/pvo.gif" width="600">
+<img src="https://github.com/enwi/RNGBridgeDoc/blob/v2/images/gif/pvo.gif" width="600">
 
 ## Troubleshooting
 ### Status field shows `Could not get update interval, retrying`

@@ -24,7 +24,7 @@ curl -X POST -H "Content-Type: application/json" -d '{"load":true,"out2":true,"o
 
 ## Requesting controller state
 For getting the state of the charge controller you have to send a `GET` request to the endpoint `/api/state`.
-`RNGBridge` will then return a current state JSON object similar to the one returned with [MQTT](https://github.com/enwi/RNGBridgeDoc/blob/main/mqtt.md).
+`RNGBridge` will then return a current state JSON object similar to the one returned with [MQTT](https://github.com/enwi/RNGBridgeDoc/blob/v2/mqtt.md).
 If wanted the MQTT obect could be extended to also have these values included.
 
 ### Data Structure

@@ -50,7 +50,7 @@ Verify that your WiFi settings (`SSID`, `Password`, etc.) are correct and press 
 After that `RNGBridge` will reboot and try to connect to the WiFi network.
 If it can't connect due to the WiFi not being available or the settings being invalid `RNGBridge` will fall back to the access point mode.
 
-<img src="https://github.com/enwi/RNGBridgeDoc/blob/main/images/gif/wifi_client.gif" width="600">
+<img src="https://github.com/enwi/RNGBridgeDoc/blob/v2/images/gif/wifi_client.gif" width="600">
 
 ## Step 6 - Open user interface from local network device
 Once `RNGBridge` has connected successfully with your local WiFi network you can access the user interface from all devices connected to you local network.
@@ -59,4 +59,4 @@ For that open a webbrowser and enter the IP address of `RNGBridge`.
 > If you can't figure out the IP address you can connect a USB to serial converter to pin `D4` of the ESP8266 D1 Mini and open a terminal with `8N1` and `115200` baudrate.
 > Then press the reset button of the ESP and the IP address will be printed to your console.
 
-If everything worked out fine you are now setup. For infos on how to setup `MQTT` or `PVOutput` please take a look at the respective guides [MQTT](https://github.com/enwi/RNGBridgeDoc/blob/main/mqtt.md) and [PVOutput](https://github.com/enwi/RNGBridgeDoc/blob/main/pvoutput.md).
+If everything worked out fine you are now setup. For infos on how to setup `MQTT` or `PVOutput` please take a look at the respective guides [MQTT](https://github.com/enwi/RNGBridgeDoc/blob/v2/mqtt.md) and [PVOutput](https://github.com/enwi/RNGBridgeDoc/blob/v2/pvoutput.md).
