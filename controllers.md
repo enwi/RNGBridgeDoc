@@ -1,10 +1,17 @@
-# Tested Controllers
+# Tested Devices
 
-A list of Renogy Charge Controllers that have been tested (feel free to submit a PR with ones you have tried).
+A list of Renogy Charge Controllers and other devices that have been tested (feel free to submit a PR with ones you have tried).
 
 :grey_question: means untested,
 :white_check_mark: means tested and compatible,
 :x: means tested and incompatible
+
+## Smart Batteries
+
+| Model               | RNGBridge V3 485   | Notes |
+|:--------------------|--------------------|-------|
+| `RBT2425LFP-RBM`    | :grey_question:    | 24V  25Ah LiFePo4 |
+| `RBT100LFP12S`      | :white_check_mark: | 12V 100Ah LiFePo4 |
 
 ## MPPT Charge Controllers
 
@@ -30,7 +37,7 @@ A list of Renogy Charge Controllers that have been tested (feel free to submit a
 ### Wanderer
 | Model               | Version | RNGBridge V2       | RNGBridge V3 232   | RNGBridge V3 485   | Notes |
 |:--------------------|---------|--------------------|--------------------|--------------------|-------|
-| `RNG-CTRL-WND10`    | VXXXXXX | :white_check_mark: | :white_check_mark: | :grey_question:    | 10A model |
+| `RNG-CTRL-WND10`    | VXXXXXX | :white_check_mark: | :white_check_mark: | :x:                | 10A model |
 | `RNG-CTRL-WND30-LI` | VXXXXXX | :grey_question:    | :grey_question:    | :grey_question:    | 30A model |
 
 ### Voyager (waterproof)
