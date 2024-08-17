@@ -1,76 +1,92 @@
-# Tested Devices
+# Compatible devices
 
-A list of Renogy Charge Controllers and other devices that have been tested (feel free to submit a PR with ones you have tried).
+A list of Charge Controllers and other devices that have been tested (feel free to submit a PR with ones you have tried).
 
 :grey_question: means untested,
 :white_check_mark: means tested and compatible,
 :x: means tested and incompatible
 
-## Smart Batteries
+## Renogy Smart Batteries
+| Model               | RNGBridge V3 485   | RS485Bridge V4     | Notes |
+|:--------------------|--------------------|--------------------|-------|
+| `RBT100LFP12S-LFP`  | :white_check_mark: | :white_check_mark: | 12V 100Ah LiFePo4 |
 
-| Model               | RNGBridge V3 485   | Notes |
-|:--------------------|--------------------|-------|
-| `RBT2425LFP-RBM`    | :grey_question:    | 24V  25Ah LiFePo4 |
-| `RBT100LFP12S`      | :white_check_mark: | 12V 100Ah LiFePo4 |
-
-## MPPT Charge Controllers
+## Renogy MPPT Charge Controllers
 
 ### Rover Series
 
 #### Elite
-| Model               | Version | RNGBridge V2       | RNGBridge V3 232   | RNGBridge V3 485   | Notes |
-|:--------------------|---------|--------------------|--------------------|--------------------|-------|
-| `RCC20RVRE-G1`      | VXXXXXX | :x:                | :x:                | :white_check_mark: | 20A model |
-| `RCC40RVRE-G1`      | VXXXXXX | :x:                | :x:                | :grey_question:    | 40A model |
+| Model               | RNGBridge V3 485   | RS485Bridge V4     | Notes |
+|:--------------------|--------------------|--------------------|-------|
+| `RCC20RVRE-G1`      | :white_check_mark: | :white_check_mark: |20A model |
+| `RCC40RVRE-G1`      | :grey_question:    | :white_check_mark: |40A model |
 
 #### Li
-| Model               | Version | RNGBridge V2       | RNGBridge V3 232   | RNGBridge V3 485   | Notes |
-|:--------------------|---------|--------------------|--------------------|--------------------|-------|
-| `RNG-CTRL-RVR20`    | V030001 | :white_check_mark: | :white_check_mark: | :grey_question:    | 20A model, aka `ROVER20A` |
-| `RNG-CTRL-RVR30`    | VXXXXXX | :grey_question:    | :grey_question:    | :grey_question:    | 30A model, aka `ROVER30A` |
-| `RNG-CTRL-RVR40`    | V030001 | :white_check_mark: | :white_check_mark: | :grey_question:    | 40A model, aka `ROVER40A` |
-| `RNG-CTRL-RVR60`    | VXXXXXX | :white_check_mark: | :white_check_mark: | :grey_question:    | 60A model, aka `ROVER60A` |
-| `RNG-CTRL-RVR100`   | VXXXXXX | :grey_question:    | :grey_question:    | :grey_question:    | 100A model, aka `ROVER100A` |
+| Model               | RNGBridge V2       | RNGBridge V3 232   | RNGBridge V3 485   | RS232Bridge V4     | RS485Bridge V4     | Notes |
+|:--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|-------|
+| `RNG-CTRL-RVR20`    | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :x:                | 20A model, aka `ROVER20A` |
+| `RNG-CTRL-RVR30`    | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :x:                | 30A model, aka `ROVER30A` |
+| `RNG-CTRL-RVR40`    | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :x:                | 40A model, aka `ROVER40A` |
+| `RNG-CTRL-RVR60`    | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :x:                | 60A model, aka `ROVER60A` |
+| `RNG-CTRL-RVR100`   | :white_check_mark: | :white_check_mark  | :grey_question:    | :white_check_mark: | :grey_question:    | 100A model, aka `ROVER100A` |
 
-## PWM Charge Controllers
+## Renogy PWM Charge Controllers
 
 ### Wanderer
-| Model               | Version | RNGBridge V2       | RNGBridge V3 232   | RNGBridge V3 485   | Notes |
-|:--------------------|---------|--------------------|--------------------|--------------------|-------|
-| `RNG-CTRL-WND10`    | VXXXXXX | :white_check_mark: | :white_check_mark: | :x:                | 10A model |
-| `RNG-CTRL-WND30-LI` | VXXXXXX | :grey_question:    | :grey_question:    | :grey_question:    | 30A model |
-
-### Voyager (waterproof)
-| Model               | Version | RNGBridge V2       | RNGBridge V3 232   | RNGBridge V3 485   | Notes |
-|:--------------------|---------|--------------------|--------------------|--------------------|-------|
-| `RCC10VOYP-G1`      | VXXXXXX | :grey_question:    | :grey_question:    | :grey_question:    | 10A model |
-| `RCC20VOYP-G1 `     | VXXXXXX | :grey_question:    | :grey_question:    | :grey_question:    | 20A model |
+| Model               | RNGBridge V2       | RNGBridge V3 232   | RS232Bridge V4     | Notes |
+|:--------------------|--------------------|--------------------|--------------------|-------|
+| `RNG-CTRL-WND10`    | :white_check_mark: | :white_check_mark: | :white_check_mark: | 10A model |
+| `RNG-CTRL-WND30-LI` | :white_check_mark: | :white_check_mark: | :white_check_mark: | 30A model |
 
 ### Adventurer
-| Model               | Version | RNGBridge V2       | RNGBridge V3 232   | RNGBridge V3 485   | Notes |
-|:--------------------|---------|--------------------|--------------------|--------------------|-------|
-| `RNG-CTRL-ADV30-LI` | VXXXXXX | :grey_question:    | :grey_question:    | :grey_question:    | 30A model |
+| Model               | RNGBridge V2       | RNGBridge V3 232   | RS232Bridge V4     | Notes |
+|:--------------------|--------------------|--------------------|--------------------|-------|
+| `RNG-CTRL-ADV30-LI` | :white_check_mark: | :white_check_mark: | :white_check_mark: | 30A model |
 
 ## Non Renogy models
 
 ### RICH SOLAR
-| Model               | Version | RNGBridge V2       | RNGBridge V3 232   | RNGBridge V3 485   | Notes |
-|:--------------------|---------|--------------------|--------------------|--------------------|-------|
-| `20 Amp MPPT`       | VXXXXXX | :white_check_mark: | :white_check_mark: | :grey_question:    | 20A model |
-| `40 Amp MPPT`       | VXXXXXX | :grey_question:    | :grey_question:    | :grey_question:    | 40A model |
+| Model               | RNGBridge V2       | RNGBridge V3 232   | RNGBridge V3 485   | RS232Bridge V4     | RS485Bridge V4     | Notes |
+|:--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|-------|
+| `RS-MPPT20`         | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :x:                | 20A model |
+| `RS-MPPT30`         | :grey_question:    | :grey_question:    | :x:                | :grey_question:    | :x:                | 30A model |
+| `RS-MPPT40`         | :grey_question:    | :grey_question:    | :x:                | :grey_question:    | :x:                | 40A model |
+| `RS-MPPT60`         | :grey_question:    | :grey_question:    | :grey_question:    | :grey_question:    | :grey_question:    | 60A model |
 
 ### SRNE
-| Model               | Version | RNGBridge V2       | RNGBridge V3 232   | RNGBridge V3 485   | Notes |
-|:--------------------|---------|--------------------|--------------------|--------------------|-------|
-| `SR-MT2410`         | VXXXXXX | :grey_question:    | :grey_question:    | :grey_question:    | 10A model |
-| `SR-ML2420`         | VXXXXXX | :grey_question:    | :grey_question:    | :grey_question:    | 20A model |
-| `SR-ML2430`         | VXXXXXX | :white_check_mark: | :white_check_mark: | :grey_question:    | 30A model |
-| `SR-ML4860`         | VXXXXXX | :grey_question:    | :grey_question:    | :grey_question:    | 60A model |
+| Model               | RNGBridge V2       | RNGBridge V3 232   | RNGBridge V3 485   | RS232Bridge V4     | RS485Bridge V4     | Notes |
+|:--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|-------|
+| `MT2410`            | :grey_question:    | :grey_question:    | :grey_question:    | :grey_question:    | :grey_question:    | 10A 12/24V model |
+| `ML2420/ML2420-C`   | :grey_question:    | :grey_question:    | :grey_question:    | :grey_question:    | :grey_question:    | 20A 12/24V model |
+| `ML2430/ML2430-C`   | :white_check_mark: | :white_check_mark: | :grey_question:    | :white_check_mark: | :grey_question:    | 30A 12/24V model |
+| `ML2440/ML2440-C`   | :grey_question:    | :grey_question:    | :grey_question:    | :grey_question:    | :grey_question:    | 40A 12/24V model |
+| `ML4830N15`         | :grey_question:    | :grey_question:    | :grey_question:    | :grey_question:    | :grey_question:    | 30A 12/24/36/48V model |
+| `ML4860N15`         | :grey_question:    | :grey_question:    | :grey_question:    | :grey_question:    | :grey_question:    | 60A 12/24/36/48V model |
+| `LC2430N10H`        | :x:                | :x:                | :grey_question:    | :x:                | :grey_question:    | 30A 12/24V model |
+| `MF48100N50`        | :x:                | :x:                | :grey_question:    | :x:                | :grey_question:    | 100A 48V model |
+| `MC4860N15`         | :x:                | :x:                | :grey_question:    | :x:                | :grey_question:    | 60A 12/24/36/48V model |
+| `MC4870N15`         | :x:                | :x:                | :grey_question:    | :x:                | :grey_question:    | 70A 12/24/36/48V model |
+| `MC4885N15`         | :x:                | :x:                | :grey_question:    | :x:                | :grey_question:    | 85A 12/24/36/48V model |
+| `MC48100N15`        | :x:                | :x:                | :grey_question:    | :x:                | :grey_question:    | 100A 12/24/36/48V model |
+| `MC4860N25`         | :x:                | :x:                | :grey_question:    | :x:                | :grey_question:    | 60A 12/24/36/48V model |
+| `MC4870N25`         | :x:                | :x:                | :grey_question:    | :x:                | :grey_question:    | 70A 12/24/36/48V model |
+| `MC4885N25`         | :x:                | :x:                | :grey_question:    | :x:                | :grey_question:    | 85A 12/24/36/48V model |
+| `MC48100N25`        | :x:                | :x:                | :grey_question:    | :x:                | :grey_question:    | 100A 12/24/36/48V model |
+| `MA2430N15`         | :x:                | :x:                | :grey_question:    | :x:                | :grey_question:    | 30A 12/24V model |
+| `MA2440N15`         | :x:                | :x:                | :grey_question:    | :x:                | :grey_question:    | 40A 12/24V model |
+| `MA2460N15`         | :x:                | :x:                | :grey_question:    | :x:                | :grey_question:    | 60A 12/24V model |
+| `MA4830N15`         | :x:                | :x:                | :grey_question:    | :x:                | :grey_question:    | 30A 12/24/36/48V model |
+| `Shiner2410`        | :x:                | :x:                | :grey_question:    | :x:                | :grey_question:    | 10A 12/24V model |
+| `Shiner2420`        | :x:                | :x:                | :grey_question:    | :x:                | :grey_question:    | 20A 12/24V model |
+| `Shiner2430`        | :x:                | :x:                | :grey_question:    | :x:                | :grey_question:    | 30A 12/24V model |
+| `Shiner2440`        | :x:                | :x:                | :grey_question:    | :x:                | :grey_question:    | 40A 12/24V model |
+| `Shiner2460`        | :x:                | :x:                | :grey_question:    | :x:                | :grey_question:    | 60A 12/24V model |
+| `Shiner4820`        | :x:                | :x:                | :grey_question:    | :x:                | :grey_question:    | 20A 12/24/36/48V model |
 
 ### TOYO
-| Model               | Version | RNGBridge V2       | RNGBridge V3 232   | RNGBridge V3 485   | Notes |
-|:--------------------|---------|--------------------|--------------------|--------------------|-------|
-| `SR-ML2420`         | VXXXXXX | :white_check_mark: | :white_check_mark: | :grey_question:    | 20A, 12/24V |
-| `SR-ML2440`         | VXXXXXX | :grey_question:    | :grey_question:    | :grey_question:    | 40A, 12/24V |
-| `SR-ML2430`         | VXXXXXX | :grey_question:    | :grey_question:    | :grey_question:    | 30A, 12/24V |
-| `SR-ML4860`         | VXXXXXX | :grey_question:    | :grey_question:    | :grey_question:    | 60A, 12/24/36/48V |
+| Model               | RNGBridge V2       | RNGBridge V3 232   | RNGBridge V3 485   | RS232Bridge V4     | RS485Bridge V4     | Notes |
+|:--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|-------|
+| `ML2420`            | :white_check_mark: | :white_check_mark: | :grey_question:    | :white_check_mark: | :grey_question:    | 20A, 12/24V |
+| `ML2440`            | :grey_question:    | :grey_question:    | :grey_question:    | :grey_question:    | :grey_question:    | 40A, 12/24V |
+| `ML2430`            | :grey_question:    | :grey_question:    | :grey_question:    | :grey_question:    | :grey_question:    | 30A, 12/24V |
+| `ML4860`            | :grey_question:    | :grey_question:    | :grey_question:    | :grey_question:    | :grey_question:    | 60A, 12/24/36/48V |
