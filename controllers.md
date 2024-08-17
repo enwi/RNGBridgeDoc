@@ -28,7 +28,7 @@ A list of Charge Controllers and other devices that have been tested (feel free 
 | `RNG-CTRL-RVR30`    | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :x:                | 30A model, aka `ROVER30A` |
 | `RNG-CTRL-RVR40`    | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :x:                | 40A model, aka `ROVER40A` |
 | `RNG-CTRL-RVR60`    | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :x:                | 60A model, aka `ROVER60A` |
-| `RNG-CTRL-RVR100`   | :white_check_mark: | :white_check_mark  | :grey_question:    | :white_check_mark: | :grey_question:    | 100A model, aka `ROVER100A` |
+| `RNG-CTRL-RVR100`   | :white_check_mark: | :white_check_mark: | :grey_question:    | :white_check_mark: | :grey_question:    | 100A model, aka `ROVER100A` |
 
 ## Renogy PWM Charge Controllers
 
