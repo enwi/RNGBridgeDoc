@@ -11,6 +11,16 @@ A list of Charge Controllers and other devices that have been tested (feel free 
 |:--------------------|--------------------|--------------------|-------|
 | `RBT100LFP12S-LFP`  | :white_check_mark: | :white_check_mark: | 12VDC 100Ah LiFePo4 |
 
+## Renogy Inverters
+| Model               | RNGBridge V3 485   | RS485Bridge V4     | Notes |
+|:--------------------|--------------------|--------------------|-------|
+| `RIV2430HCS-2SS`    | :grey_question:    | :grey_question:    | 24VDC 3000W 80A |
+
+## Renogy battery chargers
+| Model               | RNGBridge V3 485   | RS485Bridge V4     | Notes |
+|:--------------------|--------------------|--------------------|-------|
+| `RBC50D1S-BT`       | :grey_question:    | :grey_question:    | 12VDC 50A |
+
 ## Renogy MPPT Charge Controllers
 
 ### Rover Series
