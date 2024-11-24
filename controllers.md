@@ -37,6 +37,7 @@ A list of Charge Controllers and other devices that have been tested (feel free 
 | `RNG-CTRL-RVR20`    | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :x:                | 20A model, aka `ROVER20A` |
 | `RNG-CTRL-RVR30`    | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :x:                | 30A model, aka `ROVER30A` |
 | `RNG-CTRL-RVR40`    | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :x:                | 40A model, aka `ROVER40A` |
+| `RNG-CTRL-RVR40-CA` | :x:                | :x:                | :white_check_mark: | :x:                | :white_check_mark: | 40A model, aka `ROVER40A` updated version |
 | `RNG-CTRL-RVR60`    | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :x:                | 60A model, aka `ROVER60A` |
 | `RNG-CTRL-RVR100`   | :white_check_mark: | :white_check_mark: | :grey_question:    | :white_check_mark: | :grey_question:    | 100A model, aka `ROVER100A` |
 
@@ -72,16 +73,16 @@ A list of Charge Controllers and other devices that have been tested (feel free 
 ### XTRA-N G3
 | Model               | RS485Bridge V4     | Notes |
 |:--------------------|--------------------|-------|
-|'XTRA1206N G3/G3 BLE'| :grey_question:    | 12/24VDC 10A |
-|'XTRA2206N G3/G3 BLE'| :grey_question:    | 12/24VDC 20A |
-|'XTRA1210N G3/G3 BLE'| :grey_question:    | 12/24VDC 10A |
-|'XTRA2210N G3/G3 BLE'| :grey_question:    | 12/24VDC 20A |
-|'XTRA3210N G3/G3 BLE'| :grey_question:    | 12/24VDC 30A |
-|'XTRA4210N G3/G3 BLE'| :grey_question:    | 12/24VDC 40A |
-|'XTRA3215N G3/G3 BLE'| :grey_question:    | 12/24VDC 30A |
-|'XTRA4215N G3/G3 BLE'| :grey_question:    | 12/24VDC 40A |
-|'XTRA3415N G3/G3 BLE'| :grey_question:    | 12/24/36/48VDC 30A |
-|'XTRA4415N G3/G3 BLE'| :grey_question:    | 12/24/36/48VDC 40A |
+|`XTRA1206N G3/G3 BLE`| :grey_question:    | 12/24VDC 10A |
+|`XTRA2206N G3/G3 BLE`| :grey_question:    | 12/24VDC 20A |
+|`XTRA1210N G3/G3 BLE`| :grey_question:    | 12/24VDC 10A |
+|`XTRA2210N G3/G3 BLE`| :grey_question:    | 12/24VDC 20A |
+|`XTRA3210N G3/G3 BLE`| :grey_question:    | 12/24VDC 30A |
+|`XTRA4210N G3/G3 BLE`| :grey_question:    | 12/24VDC 40A |
+|`XTRA3215N G3/G3 BLE`| :grey_question:    | 12/24VDC 30A |
+|`XTRA4215N G3/G3 BLE`| :grey_question:    | 12/24VDC 40A |
+|`XTRA3415N G3/G3 BLE`| :grey_question:    | 12/24/36/48VDC 30A |
+|`XTRA4415N G3/G3 BLE`| :grey_question:    | 12/24/36/48VDC 40A |
 
 ### Tracer
 | Model               | RS485Bridge V4     | Notes |
