@@ -1,0 +1,17 @@
+{
+  "name": "RS232/RS485Bridge for Epever Charge Controllers",
+  "version": "2.12.0",
+  "new_install_prompt_erase": true,
+  "funding_url": "https://github.com/sponsors/enwi",
+  "builds": [
+    {
+      "chipFamily": "ESP8266",
+      "parts": [
+        {
+          "path": "firmware/Epever.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
