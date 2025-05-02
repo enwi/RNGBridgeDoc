@@ -40,7 +40,7 @@ Missing anything? If you want support for a custom feature or want to suggest so
 ## Where to buy
 <a href="https://www.tindie.com/stores/enwi/"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="I sell on Tindie" width="200" height="104"></a>
 
-- [Get the RS485 kit here](https://www.tindie.com/products/28668/)
+- [Get the RS485 kit here](https://www.tindie.com/products/wirmo/rs485bridge/)
 - [Get the RS232 kit here](https://www.tindie.com/products/21360/)
 
 ## Supported devices
